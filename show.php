@@ -10,7 +10,7 @@
     <!-- Kết nối sql -->
     <?php
         $ma = $_GET['ma'];
-        $ket_noi = mysqli_connect('localhost','root','','j2school');
+        require 'connect.php';
         $sql = "select * from tin_tuc where ma=$ma";
         $ket_qua = mysqli_query($ket_noi,$sql);
         $bai_tin_tuc = mysqli_fetch_array($ket_qua);

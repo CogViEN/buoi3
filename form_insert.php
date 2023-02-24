@@ -10,7 +10,7 @@
     <form method="post" action="process.php">
         Tiêu đề <input type="text" name="tieu_de">
         <br>
-        Nội dung <input type="text" name="noi_dung">
+        Nội dung <textarea name="noi_dung"> </textarea>
         <br>
         Link ảnh <input type="text" name="link_anh">
         <br>
